@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FFFFFF, 100%;
+    font-family: 'Ubuntu-Regular';
+}
+
+.block {
+    width: 1170px;
+    padding: 20px 0px 90px 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.cur-nav {
+    font-family: 'Ubuntu-Regular';
+    font-size: 14px;
+    color: #1E1E1E;
+    line-height: 16px;
+
+}
+
+.cur-nav a {
+    color: #737373;
+}
+
+.reg-info {
+    width: 350px;
+    text-align: center;
+    margin: 30px auto 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    width: 100%;
+    font-family: 'Ubuntu-Regular';
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer h3 {
+    color: #296DB5;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    float: left;
+    padding-right: 20px;
+}
+
+.timer a {
+    font-weight: 300;
+}
+
+.reg-info p {
+    font-family: 'Ubuntu-Regular';
+    font-size: 12px;
+    color: #737373;
+    text-align: center;
+    width: 80%;
+    line-height: 18px;
+    padding-top: 10px;
+}
+
+.plans {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.plan {
+    width: 308px;
+    box-shadow: 0px 4px 10px 0px rgba(199, 199, 199, 0.25);
+    height: 388px;
+    padding: 40px 30px;
+    font-family: 'Ubuntu-Regular';
+}
+
+.terms {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Ubuntu-Regular';
+    color: black;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 18px;
+
+}
+
+.terms p {
+    padding-bottom: 10px;
+
+}
+
+.terms .mohths {
+    font-family: 'Ubuntu-Regular';
+    font-size: 25px;
+    line-height: 28px;
+
+}
+
+.information {
+    padding: 30px 0;
+}
+
+.information p {
+    color: rgba(115, 115, 115, 1);
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 15px;
+}
+
+.information img {
+    /* width: 10px; */
+    height: 10px;
+    padding-right: 10px;
+}
+
+.next {
+    text-align: right;
+    color: rgba(41, 109, 181, 1);
+    font-size: 16px;
+    font-family: 'Ubuntu-Regular';
+}
+
+.for-profiles {
+    width: 100%;
+    margin: 90px 0;
+}
+
+.top p {
+    font-size: 28px;
+    line-height: 35px;
+    font-family: 'SourceSansPro-Light';
+}
+
+.top .profile-nav {
+    position: relative;
+    text-align: right;
+    font-size: 16px;
+    color: rgba(115, 115, 115, 1);
+}
+
+.top{
+display: flex;
+justify-content: space-between;
+padding-bottom: 30px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profiles img {
+    width: 180px;
+    height: 150px;
+}
+
+.bullets{
+    padding-top: 30px;
+    text-align: center;
+    color: rgba(41, 109, 181, 0.5);
+    height: 5px;
+}
+
+.bullets :nth-child(1){
+    height: 7px;
+    color:  rgba(41, 109, 181, 1);
+}
+
+footer{
+    width: 100%;
+    height: 76px;
+    padding: 30px 0;
+    background-color: rgba(30, 30, 30, 1);
+}
+.box{
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+.navs{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.box a{
+    font-size: 14px;
+    font-family: 'Ubuntu-Light';
+    color: #FFFFFF;
+}
+.coop{
+    text-align: right;
+}
